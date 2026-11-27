@@ -2,24 +2,17 @@
 
 An Alfred workflow that toggles the macOS grayscale display filter.
 
-## Requirements
-
-- macOS
-- Alfred with the Powerpack
-
-## Install
-
-1. Run `./build.sh`.
-2. Open `dist/Toggle-Grayscale.alfredworkflow`.
-
 ## Usage
 
-| Trigger | Action |
-| --- | --- |
-| `gray` keyword | Toggles grayscale |
-| Hotkey | Unassigned by default. Double-click the Hotkey object in the workflow editor to set one. |
+Toggle the macOS grayscale display filter via the `gray` keyword.
+
+Configure the Hotkey for faster triggering.
 
 A notification shows the new state.
+
+## Build
+
+Run `./build.sh`, then open `dist/Toggle-Grayscale.alfredworkflow`.
 
 ## How it works
 
@@ -29,14 +22,6 @@ A notification shows the new state.
 2. Fallback: `python3` with `ctypes`. Used only when the Xcode Command Line Tools are installed.
 
 No Accessibility or Automation permissions are required.
-
-## Project layout
-
-| Path | Purpose |
-| --- | --- |
-| `src/info.plist` | Workflow definition |
-| `src/toggle-grayscale.sh` | Toggle script |
-| `build.sh` | Packages `src/` into `dist/` |
 
 ## License
 
