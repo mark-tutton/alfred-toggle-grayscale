@@ -9,19 +9,23 @@
 	<key>description</key>
 	<string>Toggle the macOS grayscale colour filter</string>
 	<key>createdby</key>
-	<string></string>
+	<string>Mark Tutton</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/mark-tutton/alfred-toggle-grayscale</string>
 	<key>disabled</key>
 	<false/>
 	<key>readme</key>
-	<string>Type `gray` to toggle the macOS grayscale display filter, or double-click the Hotkey object to assign a shortcut.
+	<string>## Usage
 
-Uses the private UniversalAccess framework. No permissions or dependencies required.</string>
+Toggle the macOS grayscale display filter via the `gray` keyword.
+
+Configure the Hotkey for faster triggering.
+
+A notification shows the new state.</string>
 	<key>connections</key>
 	<dict>
 		<key>3C1B6E0A-7D4F-4B7E-9A51-0E5D2C8F1A01</key>
