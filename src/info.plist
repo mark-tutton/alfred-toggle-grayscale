@@ -9,13 +9,13 @@
 	<key>description</key>
 	<string>Toggle the macOS grayscale colour filter</string>
 	<key>createdby</key>
-	<string></string>
+	<string>Mark Tutton</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/mark-tutton/alfred-toggle-grayscale</string>
 	<key>disabled</key>
 	<false/>
 	<key>readme</key>
